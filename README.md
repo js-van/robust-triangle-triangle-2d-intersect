@@ -5,7 +5,15 @@ A slow, but robust predicate to test if two triangles intersect in the plane.  T
 # Example
 
 ```javascript
+var tritri = require('robust-triangle-triangle-2d-intersect')
 
+console.log(tritri(
+  [ [0, 0],
+    [1, 0],
+    [0, 1] ],
+  [ [0.5, 0.5],
+    [1.5, 0.5],
+    [0.5, 1.5] ]))
 ```
 
 # Install
