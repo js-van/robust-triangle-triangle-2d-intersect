@@ -1,0 +1,38 @@
+{
+  "name": "robust-triangle-triangle-2d-intersect",
+  "version": "1.0.0",
+  "description": "Test if two triangles in the plane intersect",
+  "main": "tritri2d.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "robust-segment-intersect": "^1.0.1",
+    "robust-point-in-simplex": "^1.0.2"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/robust-triangle-triangle-2d-intersect.git"
+  },
+  "keywords": [
+    "triangle",
+    "intersection",
+    "plane",
+    "geometry",
+    "robust",
+    "exact",
+    "predicate"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/robust-triangle-triangle-2d-intersect/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/robust-triangle-triangle-2d-intersect"
+}
